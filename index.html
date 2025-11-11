@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cosmic Counter - Real-Time Word, Character & Line Counter</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Cosmic Counter: The ultimate real-time text analysis tool. Instantly count characters, words, sentences, and lines with our fast, free, and beautifully designed online counter. Perfect for writers, students, and SEO professionals.">
+    <meta name="keywords" content="word counter, character counter, sentence counter, line counter, text analyzer, character count, word count tool, online word counter, text counter, SEO word count, real-time counter, javascript tool, react js">
+    <meta name="author" content="HSINI MOHAMED">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://your-domain.com/">
+    <meta property="og:title" content="Cosmic Counter - Real-Time Word, Character & Line Counter">
+    <meta property="og:description" content="The ultimate real-time text analysis tool. Instantly count characters, words, sentences, and lines with our fast, free, and beautifully designed online counter.">
+    <meta property="og:image" content="https://your-domain.com/cosmic-counter-og-image.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://your-domain.com/">
+    <meta property="twitter:title" content="Cosmic Counter - Real-Time Word, Character & Line Counter">
+    <meta property="twitter:description" content="The ultimate real-time text analysis tool. Instantly count characters, words, sentences, and lines with our fast, free, and beautifully designed online counter.">
+    <meta property="twitter:image" content="https://your-domain.com/cosmic-counter-og-image.png">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @keyframes move-background {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+      .cosmic-background {
+        background: linear-gradient(
+          -45deg,
+          #0f0c29,
+          #302b63,
+          #24243e,
+          #1a2a6c,
+          #b21f1f,
+          #fdbb2d
+        );
+        background-size: 400% 400%;
+        animation: move-background 30s ease infinite;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/"
+  }
+}
+</script>
+</head>
+  <body class="bg-gray-900">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
