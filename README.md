@@ -1,20 +1,22 @@
 <div align="center">
-# 🚀 Character Word And Line Counter
-### *Modern, High-Performance JavaScript Solution & Developer Suite*
 
-<p align="center">
-  [![Architect](https://img.shields.io/badge/Architect-Hsini%20Mohamed-0055ff?style=for-the-badge&logo=github&logoColor=white)](https://hsini.dev)
-  [![Portfolio](https://img.shields.io/badge/Portfolio-hsini.dev-00c853?style=for-the-badge&logo=google-chrome&logoColor=white)](https://hsini.dev)
-  [![Language](https://img.shields.io/badge/Language-TypeScript-3178C6?style=for-the-badge)](https://github.com/hsinidev)
-  [![Framework](https://img.shields.io/badge/Framework-JavaScript-6366f1?style=for-the-badge)](https://github.com/hsinidev)
-  [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-</p>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=180&section=header&text=Character%20Word%20And%20Line%20&fontSize=42&fontColor=fff&animation=fadeIn&fontAlignY=38" width="100%" style="max-width: 100%; border-radius: 12px; margin-bottom: 20px;" alt="Character Word And Line Counter Header Banner" />
 
-![Cosmic Counter Screenshot](https://raw.githubusercontent.com/hsinidev/word-counter/main/public/word-counter.webp)
+  <h1>🚀 Character Word And Line Counter</h1>
+  <p><em>Modern, High-Performance JavaScript Solution & Developer Suite</em></p>
+
+  <p align="center">
+    <a href="https://hsini.dev"><img src="https://img.shields.io/badge/Architect-Hsini%20Mohamed-0055ff?style=for-the-badge&logo=github&logoColor=white" alt="Architect: Hsini Mohamed" /></a>
+    <a href="https://hsini.dev"><img src="https://img.shields.io/badge/Portfolio-hsini.dev-00c853?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio: hsini.dev" /></a>
+    <a href="https://github.com/hsinidev"><img src="https://img.shields.io/badge/Language-TypeScript-3178C6?style=for-the-badge" alt="Language: TypeScript" /></a>
+    <a href="https://github.com/hsinidev"><img src="https://img.shields.io/badge/Framework-JavaScript-6366f1?style=for-the-badge" alt="Framework: JavaScript" /></a>
+    <a href="https://github.com/hsinidev/Character-Word-and-Line-Counter"><img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License: MIT" /></a>
+  </p>
 
 </div>
 
 ---
+
 ## 🌟 Executive Overview
 
 **Character Word And Line Counter** is a production-grade **TypeScript** platform engineered for high reliability, clean architectural separation, and frictionless developer workflow.
@@ -27,6 +29,7 @@
 - **Production Ready**: Built-in error resilience, validation, and structured logging.
 
 ---
+
 ## 🏗️ Architecture & Technology Stack
 
 - **Primary Language**: `TypeScript`
@@ -34,123 +37,6 @@
 - **Design Pattern**: Modular Clean Architecture / Domain-Driven Design
 - **License**: MIT Open Source Attribution
 
-## 📖 Deep-Dive Technical Documentation
-
-# ✨ Cosmic Counter - Real-Time Text Analysis Tool
-
-**A modern, single-page React application that provides instantaneous analysis of user-input text, featuring a stunning animated cosmic theme.**
-
-
-![Cosmic Counter Screenshot](https://raw.githubusercontent.com/hsinidev/word-counter/main/public/word-counter.webp)
-
-## 🚀 Introduction
-
-
-The core counting logic is powered by pure, efficient JavaScript, ensuring that all processing happens client-side for maximum privacy and speed. No data is ever sent to a server.
-
-## 🌟 Key Features
-
--   **⚡ Real-Time Analysis**: Metrics update instantly as you type.
--   **📊 Comprehensive Metrics**:
-    -   Character Count (with spaces)
-    -   Character Count (without spaces)
-    -   Word Count
-    -   Sentence Count
-    -   Line Count
--   **🎨 Stunning Visuals**: An animated multi-colored galaxy/cosmic background provides an immersive and unique user experience.
--   **📱 Fully Responsive**: Designed to work seamlessly on desktops, tablets, and mobile devices.
--   **📋 Quick Actions**:
-    -   **Copy Text**: One-click button to copy the entire text to the clipboard.
-    -   **Clear Text**: Instantly clear the text area to start fresh.
--   **📈 SEO Optimized**:
-    -   Includes a detailed 3500+ word article on word counting standards.
-    -   Full JSON-LD schema for `WebSite`, `WebApplication`, `Article`, and `FAQPage` to enhance search engine discoverability.
-    -   Optimized meta tags, sitemap, and `robots.txt` file.
--   **🔒 Privacy-Focused**: All text processing is done entirely in your browser. Your data is never stored or transmitted.
-
-## 🛠️ Tech Stack
-
--   **Frontend**: React 18 (with Hooks)
--   **Language**: TypeScript
--   **Styling**: Tailwind CSS
--   **Core Logic**: Pure JavaScript / TypeScript (no external counting libraries)
--   **Bundler**: Vite (for local development)
-
-## 📁 Project Structure
-
-The project follows a clean and logical file structure, separating concerns for better maintainability.
-
-```
-/
-├── public/
-│   ├── favicon.svg        # Application favicon
-│   └── index.html         # Main HTML entry point
-├── src/
-│   ├── components/
-│   │   ├── TextCounterTool.tsx  # Core UI and logic for the counter
-│   │   └── ThemeLayout.tsx    # Main layout with background, header, footer, modals
-│   ├── utils/
-│   │   ├── SeoArticle.tsx     # Component for the 3500+ word SEO article
-│   │   └── StringMath.ts      # Pure JS/TS functions for all counting logic
-│   ├── App.tsx                # Root application component
-│   └── index.tsx              # React application entry point
-├── README.md                # This file
-├── robots.txt               # Instructions for web crawlers
-└── sitemap.xml              # Sitemap for SEO
-```
-
-## 🚀 Getting Started
-
-To run this project locally, you'll need Node.js and npm installed.
-
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/hsinidev/cosmic-counter.git
-    cd cosmic-counter
-    ```
-
-2.  **Install dependencies:**
-    ```bash
-    npm install
-    ```
-
-3.  **Start the development server:**
-    ```bash
-    npm run dev
-    ```
-    The application will be available at `http://localhost:5173` (or another port if 5173 is busy).
-
-## 💡 How It Works
-
-The counting logic is intentionally kept simple and efficient, using pure JavaScript string methods for maximum performance.
-
--   **Characters**: Calculated using the string's `.length` property. For the count without spaces, a regex (`/\s/g`) is used to remove all whitespace characters first.
--   **Words**: The input string is trimmed and then split into an array using a regex (`/\s+/`) that accounts for multiple whitespace characters. The length of the resulting array is the word count.
--   **Sentences**: A regular expression (`/[^\.!\?]+[\.!\?]+/g`) is used to find sequences of characters that end with a sentence-terminating punctuation mark.
--   **Lines**: The string is split by newline characters (`/\r\n|\r|\n/`). The length of the resulting array gives the line count.
-
-All of these calculations are memoized using the `useMemo` hook in React to prevent unnecessary recalculations on every render.
-
-## 🤝 Contributing
-
-Contributions are welcome! If you have suggestions for improvements or find a bug, please feel free to open an issue or submit a pull request.
-
-1.  Fork the Project
-2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4.  Push to the Branch (`git push origin feature/AmazingFeature`)
-5.  Open a Pull Request
-
-
-
-
-This project is powered by **HSINI MOHAMED**.
-
--   **GitHub**: [hsinidev](https://github.com/hsinidev)
--   **Website**: [doodax.com](https://doodax.com)
--   **Email**: [hsini.web@gmail.com](mailto:hsini.web@gmail.com)
-
----
 ## 🚀 Quick Start & Installation
 
 ### 1. Clone the Repository
